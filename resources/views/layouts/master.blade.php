@@ -16,6 +16,8 @@
   
   <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet">
   <link href="{{ asset('assets/css/materialize.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/css/owl.carousel.css') }}" rel="stylesheet">
+  <link href="{{ asset('assets/css/owl.theme.default.css') }}" rel="stylesheet">
   <script src="{{ asset('assets/js/jq.js') }}" defer></script>
  
 

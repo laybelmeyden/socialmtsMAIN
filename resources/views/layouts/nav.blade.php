@@ -15,7 +15,7 @@
         <li><a href="#" class="social_nav">en</a></li>
       </ul>
       <ul id="menu" class="right hide-on-med-and-down">
-      <li data-menuanchor="block2" class="active"><a href="#block2">Конкурсы</a></li>
+      <li data-menuanchor="block2" class="active"><a href="/#block2">Конкурсы</a></li>
       <li data-menuanchor="block3"><a href="/#block3">НОВОСТИ</a></li>
       <li data-menuanchor="block4"><a href="/#block4">ФИЛОСОФИЯ</a></li>
       <li data-menuanchor="block5"><a href="/#block5">КОНТАКТЫ</a></li>

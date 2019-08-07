@@ -95,6 +95,14 @@ p {
     border-bottom: 4px solid #E30611;
 }
 
+.crd_mero {
+    padding-top: 100px;
+}
+
+.crd_mero_news {
+    padding-top: 100px;
+}
+
 .main_text_2 {
     color: white;
     font-size: 26px;
@@ -107,6 +115,70 @@ p {
     color: white;
     font-size: 22px;
     text-transform: uppercase;
+}
+
+.title_mero {
+    top: 100px;
+    font-family: RobotoBold;
+}
+
+.pre_title_mero {
+    top: 160px;
+    font-size: 16px !important;
+}
+
+.contact_header {
+    text-align: right;
+    padding-top: 250px;
+}
+
+.owl-prev {
+    position: absolute;
+    left: -40px;
+    top: 150px;
+    color: #E30611 !important;
+}
+
+.contact_title {
+    font-size: 18px;
+    padding-right: 40px;
+    font-family: RobotoRegular;
+    line-height: 35px;
+}
+
+.contact_title>a {
+    color: black;
+    border-bottom: 2px solid #E30611;
+}
+
+.contact_zag {
+    font-size: 24px;
+    font-family: RobotoBold;
+    padding-top: 250px;
+}
+
+.owl-prev>span,
+.owl-next>span {
+    font-size: 130px;
+}
+
+.owl-next {
+    position: absolute;
+    right: -40px;
+    top: 150px;
+    color: #E30611 !important;
+}
+
+.item {
+    padding: 20px;
+}
+
+.mail_contact {
+    color: black;
+    font-family: RobotoLight;
+    text-transform: uppercase;
+    border: 1px solid black;
+    padding: 40px 70px 40px 70px;
 }
 
 .fa-star,
@@ -1435,6 +1507,156 @@ ul,
     list-style-type: disc !important;
 }
 
+#preloader {
+    background: white;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#preloader img {
+    width: 200px;
+}
+
+.filtered_projects {
+    transition: opacity 0.2s linear;
+}
+
+.project_status_bage {
+    background: white;
+    width: 180px;
+    text-align: center;
+    margin-left: 5px;
+    z-index: 1;
+    box-shadow: 1px 1px 3px #00000033;
+    border-radius: 6px !important;
+    position: absolute;
+    right: 5px;
+    margin-top: -24px;
+}
+
+.project_status_bage.winn {
+    right: 190px;
+}
+
+@media only screen and (max-width: 500px) {
+    .project_status_bage {
+        background: white;
+        width: 180px;
+        text-align: center;
+        z-index: 1;
+        box-shadow: 1px 1px 3px #00000033;
+        border-radius: 6px !important;
+        margin: 0;
+        margin-top: 0px;
+        margin-left: auto;
+        position: relative;
+        top: 5px;
+        right: 0;
+    }
+    .project_status_bage.winn {
+        right: 0px;
+    }
+}
+
+.project_status_bage_all>.no_winners {
+    position: absolute;
+    top: -16px;
+    left: 270px;
+    right: 0px;
+    z-index: 1;
+}
+
+.project_status_bage_all>.winners {
+    position: absolute;
+    top: -16px;
+    left: 80px;
+    right: 0px;
+    z-index: 1;
+}
+
+.project_status_bage.winner {
+    right: 190px;
+}
+
+.mews_date {
+    font-size: 16px;
+    color: #777777 !important;
+}
+
+.img_mero_crop {}
+
+.img_mero {
+    max-height: 500px;
+}
+
+.crd_img_news {
+    height: 220px;
+    background-size: cover;
+}
+
+.news_title {
+    font-size: 16px;
+    color: black !important;
+    font-family: RobotoBold;
+    height: 72px;
+    overflow: hidden;
+}
+
+.card-image_news {
+    height: auto;
+    max-height: 200px;
+}
+
+.filo {
+    padding-top: 100px;
+}
+
+.text_filo_1 {
+    color: white;
+    font-size: 18px;
+    padding-top: 90px;
+    font-family: RobotoRegular;
+    padding-right: 40px;
+}
+
+.text_filo_zag {
+    color: white;
+    font-size: 28px;
+    padding-top: 30px;
+    font-family: RobotoBold;
+    padding-left: 460px;
+}
+
+.text_filo_2 {
+    color: white;
+    font-size: 18px;
+    font-family: RobotoRegular;
+    padding-top: 90px;
+    padding-right: 40px;
+}
+
+.text_filo_3 {
+    color: white;
+    font-size: 18px;
+    font-family: RobotoRegular;
+    padding-top: 90px;
+}
+
+
+/* endagain */
+
+@media screen and (max-width:1598px) {
+    .crd_img_news {
+        height: 500px;
+        background-size: cover;
+    }
+}
+
 
 /*meadi*/
 
@@ -1449,7 +1671,93 @@ ul,
     }
 }
 
+@media screen and (max-width:1401px) {
+    .text_filo_1 {
+        color: white;
+        font-size: 16px;
+        padding-top: 30px;
+        font-family: RobotoRegular;
+        padding-right: 40px;
+    }
+    .text_filo_zag {
+        color: white;
+        font-size: 28px;
+        padding-top: 10px;
+        font-family: RobotoBold;
+        padding-left: 460px;
+    }
+    .text_filo_2 {
+        color: white;
+        font-size: 16px;
+        font-family: RobotoRegular;
+        padding-top: 30px;
+        padding-right: 40px;
+    }
+    .text_filo_3 {
+        color: white;
+        font-size: 16px;
+        font-family: RobotoRegular;
+        padding-top: 30px;
+    }
+}
+
 @media screen and (max-width: 1201px) {
+    .text_filo_zag {
+        color: white;
+        font-size: 14px;
+        padding-top: 10px;
+        font-family: RobotoBold;
+        padding-left: 0;
+    }
+    .text_filo_1 {
+        color: white;
+        font-size: 10px;
+        padding-top: 10px;
+        font-family: RobotoRegular;
+        padding-right: 0;
+    }
+    .text_filo_2 {
+        color: white;
+        font-size: 10px;
+        padding-top: 10px;
+        font-family: RobotoRegular;
+        padding-right: 0;
+    }
+    .text_filo_3 {
+        color: white;
+        font-size: 10px;
+        padding-top: 10px;
+        font-family: RobotoRegular;
+        padding-right: 0;
+    }
+    .filo {
+        padding-top: 60px !important;
+    }
+    .contact_header {
+        text-align: right;
+        padding-top: 120px;
+    }
+    .mail_contact {
+        color: black;
+        font-family: RobotoLight;
+        text-transform: uppercase;
+        border: 1px solid black;
+        padding: 10px;
+        font-size: 17px;
+    }
+    .contact_zag {
+        font-size: 16px;
+        font-family: RobotoBold;
+        padding-top: 10px;
+        text-align: center;
+    }
+    .contact_title {
+        font-size: 14px;
+        padding-right: 0px;
+        font-family: RobotoRegular;
+        line-height: 25px;
+        text-align: center;
+    }
     .main_text_1 {
         margin: 0;
         color: white;
@@ -1798,81 +2106,28 @@ textarea.form-control {
     }
 }
 
-#preloader {
-    background: white;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 99999;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#preloader img {
-    width: 200px;
-}
-
-.filtered_projects {
-    transition: opacity 0.2s linear;
-}
-
-.project_status_bage {
-    background: white;
-    width: 180px;
-    text-align: center;
-    margin-left: 5px;
-    z-index: 1;
-    box-shadow: 1px 1px 3px #00000033;
-    border-radius: 6px !important;
-    position: absolute;
-    right: 5px;
-    margin-top: -24px;
-}
-
-.project_status_bage.winn {
-    right: 190px;
-}
-
-@media only screen and (max-width: 500px) {
-    .project_status_bage {
-        background: white;
-        width: 180px;
-        text-align: center;
-        z-index: 1;
-        box-shadow: 1px 1px 3px #00000033;
-        border-radius: 6px !important;
-        margin: 0;
-        margin-top: 0px;
-        margin-left: auto;
-        position: relative;
-        top: 5px;
-        right: 0;
+@media screen and (max-width:660px) {
+    .title_mero {
+        top: 15px;
+        font-size: 20px !important;
     }
-    .project_status_bage.winn {
-        right: 0px;
+    .pre_title_mero {
+        top: 70px;
+        font-size: 12px !important;
+        height: 61px;
+        overflow: hidden;
+    }
+    .owl-prev {
+        display: none;
+    }
+    .owl-next {
+        display: none;
+    }
+    .crd_img_news {
+        height: 200px;
+        background-size: cover;
+    }
+    .crd_mero_news {
+        padding-top: 50px;
     }
 }
-
-.project_status_bage_all>.no_winners {
-    position: absolute;
-    top: -16px;
-    left: 270px;
-    right: 0px;
-    z-index: 1;
-}
-
-.project_status_bage_all>.winners {
-    position: absolute;
-    top: -16px;
-    left: 80px;
-    right: 0px;
-    z-index: 1;
-}
-
-.project_status_bage.winner {
-    right: 190px;
-}
-
-
-/* endagain */
